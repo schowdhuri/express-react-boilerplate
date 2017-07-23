@@ -1,0 +1,22 @@
+{
+  "name": "todo-node",
+  "version": "1.0.0",
+  "description": "Todo app using express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "nodemon": "^1.11.0"
+  },
+  "author": "Subir",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.4",
+    "pug": "^2.0.0-rc.2"
+  }
+}

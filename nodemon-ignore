@@ -1,0 +1,5 @@
+/static/*
+/views/*
+.git/*
+README.md
+LICENSE
