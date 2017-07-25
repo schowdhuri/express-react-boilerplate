@@ -1,4 +1,11 @@
 extend layouts/base
 
+block head
+    link(rel="stylesheet", href="/static/app.css")
+
 block content
-	h1 Todo App
+    h1 Todo App
+    #app-root
+
+block footer
+    script(src="/static/app.min.js")
